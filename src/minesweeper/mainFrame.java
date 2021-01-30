@@ -27,7 +27,7 @@ public class mainFrame extends JFrame implements ActionListener {
         this.setTitle("Minesweeper");  // Sets the title of the JFrame
         this.setResizable(false);  // Makes sure the user can't resize the JFrame
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  // Ensures that the threads close the program when the user hits the exit button
-        this.setIconImage(new ImageIcon("src/minesweeper/images/" + new Random().nextInt(13) + ".png").getImage());  // Selects a random Image for the JFrame icon
+        this.setIconImage(new ImageIcon(getClass().getResource("images/" + new Random().nextInt(13) + ".png")).getImage());  // Selects a random Image for the JFrame icon
 
         this.add(new mainMenuPanel());  // Adds the panel containing the main menu to the JFrame
         this.pack();  // Sets every component to their preferred size
