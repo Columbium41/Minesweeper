@@ -515,7 +515,7 @@ public class gamePanel extends JPanel implements MouseListener {
 
         for (int i = 0; i < NUM_IMAGES; i++) {
 
-            images[i] = new ImageIcon("src/minesweeper/images/" + i + ".png");
+            images[i] = new ImageIcon(getClass().getResource("images/" + i + ".png"));
             scaledImages[i] = images[i].getImage().getScaledInstance(TILE_SIZE, TILE_SIZE, java.awt.Image.SCALE_SMOOTH);
             resizedImages[i] = new ImageIcon(scaledImages[i]);
 
