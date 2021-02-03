@@ -10,3 +10,6 @@ Simply download the lastest version of dist.zip [on the releases page](https://g
 
 ## Report Bugs and Issues
 Report any issues or problems with the program here [on the issue tracker](https://github.com/Columbium41/Minesweeper/issues)
+
+## Screenshots and Images
+![Preview 1]("C:\Users\charl\OneDrive\Pictures\Minesweeper Preview 1.png")
